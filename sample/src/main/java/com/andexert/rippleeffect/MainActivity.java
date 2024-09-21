@@ -1,7 +1,7 @@
 package com.andexert.rippleeffect;
 
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
@@ -18,7 +18,7 @@ import com.andexert.library.RippleView;
 import java.util.ArrayList;
 
 
-public class MainActivity extends ActionBarActivity
+public class MainActivity extends AppCompatActivity
 {
     private final Boolean isRecyclerview = false;
     private ArrayList<String> sourcesArrayList = new ArrayList<String>();
