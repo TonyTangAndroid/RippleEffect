@@ -22,8 +22,8 @@ android {
 }
 
 dependencies {
-    api project(':library')
-//    api 'com.github.TonyTangAndroid:RippleEffect:1.5.1'
+//    api project(':library')
+    api 'com.github.TonyTangAndroid:RippleEffect:1.5.1'
     //noinspection GradleDependency
     api 'androidx.appcompat:appcompat:1.6.1'
     api 'androidx.palette:palette:1.0.0'
