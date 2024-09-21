@@ -11,9 +11,18 @@ ExpandableLayout provides an easy way to create a view called header with an exp
 The lib is available on Maven Central, you can find it with [Gradle, please](http://gradleplease.appspot.com/#rippleeffect)
 
 ``` xml
+In the root build.gradle file, add `maven { url 'https://jitpack.io' }`
+
+allprojects {
+    repositories {
+        mavenCentral()
+        google()
+        maven { url 'https://jitpack.io' }
+    }
+}
 
 dependencies {
-    compile 'com.github.traex.rippleeffect:library:1.3'
+    api 'com.github.TonyTangAndroid:RippleEffect:1.5.1'
 }
 
 ```
