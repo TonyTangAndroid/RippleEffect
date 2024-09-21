@@ -15,6 +15,6 @@ jobs:
       - uses: actions/setup-java@v4.3.0
         with:
           distribution: 'zulu'
-          java-version: 11
+          java-version: 17
       - name: Compile apk
         run: ./gradlew :sample:assembleDebug
